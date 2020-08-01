@@ -1,0 +1,49 @@
+body {
+  font-family: 'Recursive', 'Arial', sans-serif;
+  color: #4a3f35;
+}
+
+h1 {
+  font-size: 300%;
+}
+
+h1, h2 {
+  color: #ff4301;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+img {
+  width: 100%;
+}
+
+footer {
+  margin-top: 70px;
+  background-color: #ff4301;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #ffffff;
+}
+
+h2>i:hover {
+  font-size: 300%;
+}
+
+#container {
+  width: 60%;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  #container {
+    width: 90%;
+    margin: center;
+  }
+
+  h1 {
+    font-size: 200%;
+  }
